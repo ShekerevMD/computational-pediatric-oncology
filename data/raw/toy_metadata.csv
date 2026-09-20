@@ -1,0 +1,13 @@
+sample_id,histology,risk,mycn
+NB01,neuroblastoma,high,amplified
+NB02,neuroblastoma,high,amplified
+NB03,neuroblastoma,high,amplified
+NB04,neuroblastoma,low,not_amplified
+NB05,neuroblastoma,low,not_amplified
+NB06,neuroblastoma,intermediate,not_amplified
+NB07,neuroblastoma,low,not_amplified
+NB08,neuroblastoma,intermediate,not_amplified
+ALL01,B-ALL,standard,not_amplified
+ALL02,B-ALL,standard,not_amplified
+ALL03,B-ALL,high,not_amplified
+ALL04,B-ALL,standard,not_amplified
