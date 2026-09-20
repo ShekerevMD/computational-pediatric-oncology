@@ -1,0 +1,87 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+.env
+.env.local
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+*.Rproj
+
+# Data — keep pointers, not payloads
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/README.md
+data/external/*
+!data/external/.gitkeep
+!data/external/README.md
+*.bam
+*.bai
+*.cram
+*.crai
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.vcf
+*.vcf.gz
+*.tbi
+*.bcf
+*.h5ad
+*.h5
+*.loom
+*.zarr/
+*.tif
+*.tiff
+*.svs
+*.ndpi
+*.mrxs
+*.dcm
+
+# Secrets and credentials
+*.pem
+*.key
+secrets/
+credentials.json
+token.txt
+
+# Large model weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+models/weights/
+
+# Nextflow / workflow workdirs
+work/
+.nextflow/
+.nextflow.log*
+results/
