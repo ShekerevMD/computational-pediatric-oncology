@@ -1,0 +1,14 @@
+project: computational-pediatric-oncology
+seed: 2026
+threads: 8
+
+figures:
+  dpi: 150
+  format: png
+  outdir: data/processed/figures
+
+year01:
+  histology: neuroblastoma
+  expression_csv: data/raw/toy_expression.csv
+  metadata_csv: data/raw/toy_metadata.csv
+  n_components: 3
